@@ -21,10 +21,16 @@
     <button onclick="subscribe()">Subscribe</button>
 
     <script>
-        addEventListener('load', async() => {
-            let sw = await navigator.serviceWorker.register('./sw.js')
-            console.log(sw)
-        })
+        // addEventListener('load', async() => {
+        //     let sw = await navigator.serviceWorker.register('./sw.js')
+        //     console.log(sw)
+        // })
+        window.addEventListener("load", () => {
+            if ("serviceWorker" in navigator) {
+                let sw = navigator.serviceWorker.register("./sw.js");
+                console.log(sw);
+            }
+        });
 
         async function subscribe() {
             let sw = await navigator.serviceWorker.ready;
