@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Jost';  
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jost/v6/92zUtBhPNqw73oHt5D4hTxM.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* @font-face { */
+	/* font-family: system-ui */
+/* } */
+html{
+	/* background: url("../images/qatar-2022-logo.png") no-repeat;	 */
+	margin: 100px 100px 100px 100px;	
+	background: #f06d06;	
+	/* z-index: -1; */
+	/* opacity: 0.3; */
+}
+body {
+  background: url("../images/giffy3.gif") no-repeat;
+  font-family: Jost; 
+  border-radius: 25px;  
+  /* height:auto; */
+  display:inline-block;
+  /* overflow:hidden; */
+  padding: 15px 15px 15px 20px;
+  
+}
+.utility-links{
+	/* Image as The List Item Marker */
+	list-style-image: url('../images/validyes.png');
+	padding-top: 20px;
+	
+}
+.utility-links ul li a{
+	text-decoration:none;
+	font-weight: bold;
+	color: #f06d06;
+}
+.utility-links ul li a:hover {
+  background-color: #333333;
+    /* background-color: #f06d06; */
+	color: #9FEF00;
+	/* font-weight: 950; */
+	/* font-size: 25px; */
+}
+#social ul li a{
+	display:block;
+	text-align: center;
+	padding:10px 60px 10px 10px;
+	text-decoration:none;
+	font-weight: bold;
+	color: #f06d06;
+}
+
+#social ul li{	
+	float:left;
+	font-size: 20px;
+	/* list-style-image: url('../images/community_comp.gif'); */	
+}
+
+#social ul li a:hover {  
+    background-color: #f06d06;
+	color: #9FEF00;
+	font-weight: 950;
+	font-size: 25px;
+}
+#social ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	/* background-color: #333333; */
+}
+.navigation{
+	padding-top: 30px;
+}
+.navigation ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;	
+}
+.navigation ul li a:hover {  
+    background-color: #f06d06;
+	color: #9FEF00;
+	font-weight: 950;
+	font-size: 25px;
+}
+.navigation ul li a{
+	display:block;
+	text-align: center;	
+	text-decoration:none;
+	font-weight: bold;
+	color: #f06d06;
+	padding:10px 40px 10px 10px;
+}
+
+.navigation ul li{	
+	float:left;
+	font-size: 20px;	
+	/* list-style-image: url('../images/community_comp.gif'); */	
+}
+.card{
+	/* padding: 3px 5px 10px 10px; */
+	margin: 2px 45px 20px 30px;
+	
+}
+#card-1{  
+  float: left;  
+  padding:2px 2px 3px 2px;  
+}
+
+#twitter-api{	
+  float: left;
+}
+
+#card-3{
+  display: inline-block;
+  float: right;  
+  padding: 2px 2px 3px 2px;  
+ }
+
+#card-4{  
+  float: right;  
+  padding:2px 2px 3px 2px;
+  clear:left;
+  }
+ .inputBox{
+	 text-align: center;
+	 font-weight: bold;
+	 font-size: 20px;
+	 border-radius: 5px;
+	 padding: 2px 0 0 0;
+ }
+ .authVerify{
+	 margin: 8px 0 5px 0;
+ }
+ .inputBox:hover{
+	 border-color: coral;
+ }
+ .showBtn{
+	 margin: 8px 0 5px 0;
+ }
+
